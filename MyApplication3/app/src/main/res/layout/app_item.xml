@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:padding="10dp">
+            <ImageView
+                android:id="@+id/app_item1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"/>
+
+            <ImageView
+                android:id="@+id/app_item2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"/>
+            <ImageView
+                android:id="@+id/app_item3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"/>
+            <ImageView
+                android:id="@+id/app_item4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="test"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_columnSpan="2"
+                />
+    </GridLayout>
+
+</FrameLayout>
