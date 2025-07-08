@@ -27,3 +27,6 @@ app info 의 category 정보를 활용하여 분류하고자 하였으나 <br/>
 특정 박스 클릭시 가운데 박스를 보이게 활성화하여 3X3으로 띄운다. <br/>
 클릭할 때 가운데 박스에 띄울 앱 리스트를 전달한다.
 <img width="671" alt="image" src="https://github.com/user-attachments/assets/48f558ca-0751-4875-9c84-6de9ed9a1ed7" />
+
+### 앱 작동 영상
+[![video](http://img.youtube.com/vi/P9AlQ4OokEI/0.jpg)](https://youtube.com/shorts/P9AlQ4OokEI)
